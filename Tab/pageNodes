@@ -1,0 +1,35 @@
+{
+"naviList":
+[
+    {"naviID":0,"nodesAry":["1000","1002","1015","1020","1021"]},
+    {"naviID":1,"nodesAry":["2001","2002","1015","1020","1021"]},
+    {"naviID":2,"nodesAry":["3001","3002","1015","1020","1021"]},
+    {"naviID":3,"nodesAry":["4001","4002","1015","1020","1021"]}
+],
+"pageNodes":
+[   {"nodeName":"1000" ,"nodeID":1000 ,"nodeLevel":2 },
+    {"nodeName":"1002" ,"nodeID":1002 ,"nodeLevel":3 },
+    {"nodeName":"1015" ,"nodeID":1015 ,"nodeLevel":6 },
+    {"nodeName":"1020" ,"nodeID":1020 ,"nodeLevel":7 },
+    {"nodeName":"1021" ,"nodeID":1021 ,"nodeLevel":8 },
+    {"nodeName":"2001" ,"nodeID":2001 ,"nodeLevel":2 },
+    {"nodeName":"2002" ,"nodeID":2002 ,"nodeLevel":3 },
+    {"nodeName":"3001" ,"nodeID":3001 ,"nodeLevel":2 },
+    {"nodeName":"3002" ,"nodeID":3002 ,"nodeLevel":3 },
+    {"nodeName":"4001" ,"nodeID":4001 ,"nodeLevel":2 },
+    {"nodeName":"4002" ,"nodeID":4002 ,"nodeLevel":3 },
+    {"nodeName":"5001" ,"nodeID":5001 ,"nodeLevel":2 },
+    {"nodeName":"5002" ,"nodeID":5002 ,"nodeLevel":3 }
+
+],
+"popNaviList":
+[
+    {"naviID":4,"nodesAry":["5001","5002"]}
+]
+
+
+
+
+
+
+}

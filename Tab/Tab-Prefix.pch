@@ -1,0 +1,29 @@
+//
+//  tabPrefixHeader.pch
+//  Tab
+//
+//  Created by zouxue on 15/7/29.
+//  Copyright (c) 2015年 xiyou. All rights reserved.
+//
+
+#ifndef Tab_tabPrefixHeader_pch
+#define Tab_tabPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+//#import "AFNetworking.h"
+#import"XYPublicInterface.h"
+#import "XYView+display.h"
+#import"XYHelper.h"
+#import"XYView.h"
+#import "UIImageView+WebCache.h"
+#import "HeaderMacro.h"
+#define deviceWidth [UIScreen mainScreen].bounds.size.width
+#define deviceHeight [UIScreen mainScreen].bounds.size.height
+#define fLocalStringNotFormat(key) NSLocalizedString(key, nil)
+#define  iOS7 ([[[UIDevice currentDevice] systemVersion] floatValue]>= 7.0 ?YES:NO)
+
+#endif
+
